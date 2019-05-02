@@ -13,6 +13,6 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "frisby": "^2.1.1",
-    "jest": "^24.6.0"
+    "jest": "^24.7.1"
   }
 }

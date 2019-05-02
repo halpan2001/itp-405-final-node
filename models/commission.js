@@ -34,7 +34,7 @@ module.exports = sequelize.define('commission', {
     validate: {
       isNumeric:{
         args: true,
-        msg: 'Milliseconds must be numeric'
+        msg: 'Price must be numeric'
       }
     }
   },
@@ -44,7 +44,7 @@ module.exports = sequelize.define('commission', {
     validate: {
       isNumeric:{
         args: true,
-        msg: 'Milliseconds must be numeric'
+        msg: 'workTime must be numeric'
       }
     }
   },
@@ -54,7 +54,7 @@ module.exports = sequelize.define('commission', {
     validate: {
       isNumeric:{
         args: true,
-        msg: 'Milliseconds must be numeric'
+        msg: 'slots must be numeric'
       }
     }
   }
